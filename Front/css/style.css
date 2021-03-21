@@ -1,0 +1,187 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    background: #151618;
+    background-image: url(/img/переделка.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+
+
+    max-width: 1440px;
+    /* background-image: url(/img/переделка.jpg);*/
+    margin: 0 auto;
+    /*border: #000 solid;*/
+
+}
+
+
+
+.nav-block {
+    padding: 0 30px 0 30px;
+    margin-top: 20px;
+    /*background: #FA0000;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 45px;
+    color: #fff;
+}
+
+.logo:hover {
+
+    opacity: 0.8;
+}
+
+.nav-sections {
+    display: flex;
+    align-items: center;
+}
+
+.man-login {
+    background: #FFC857;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+
+}
+
+.man-login img {
+    height: 25px;
+    width: 25px;
+    padding-left: 10px;
+    padding-top: 9px;
+}
+
+.man-login:hover {
+    opacity: 0.9;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.registration {
+    display: flex;
+    margin-left: 20px;
+    background: #FFC857;
+    border-radius: 20px;
+    height: 45px;
+    width: 150px;
+
+}
+
+
+.registration span {
+    color: #211F1C;
+    font-size: 18px;
+    padding-left: 43px;
+    align-self: center;
+
+    padding-bottom: 5px;
+
+}
+
+.registration:hover {
+    opacity: 0.9;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+.section-block {
+    display: flex;
+    justify-content: center;
+}
+
+.section-description {
+
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    height: 136px;
+    width: 980px;
+    margin-top: 500px;
+    margin-bottom: 0;
+}
+
+
+.main-block {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 0;
+    padding: 0 100px 0 100px;
+    background: #151618;
+    z-index: 10;
+    opacity: 0.92;
+}
+
+.card {
+
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+}
+
+.botton {
+    display: flex;
+    background: #FFC857;
+    border-radius: 20px;
+    color: #211F1C;
+
+}
+
+.botton span {
+    text-align: center;
+    align-self: center;
+}
+
+.botton-store {
+    padding-left: 8px;
+    height: 50px;
+    width: 250px;
+}
+
+.botton-strim {
+    padding-left: 55px;
+    height: 50px;
+    width: 150px;
+}
+
+.botton:hover {
+    opacity: 0.9;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
